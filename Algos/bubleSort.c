@@ -1,11 +1,5 @@
 #include <stdio.h>
-int main()
-{
-    int array[10]={10,20,50,30,56,70,59,37,92,100};
-    bubleSort(array,10);
 
-    return 0;
-}
 void bubleSort(int array[],int size){
     int altered =1;
     while (altered)
@@ -25,13 +19,11 @@ void bubleSort(int array[],int size){
             }
         }
     }
-
     printf("\n+--------------------+");
    for (int i = 0; i < size; i++)
    {
        printf("\n| %d----->\t%d\t|",i,array[i]);
    }
     printf("\n+--------------------+");
-   
     
 }
